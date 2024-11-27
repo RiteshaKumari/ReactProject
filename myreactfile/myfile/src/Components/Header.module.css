@@ -1,0 +1,99 @@
+/* General Navbar Styles */
+.navbar {
+  background-color: #333;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky; /* Make the navbar sticky */
+  top: 0; /* Position it at the top */
+  z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#dataIcon{
+  display: flex;
+  flex-wrap: nowrap !important;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Menu Icon Styles */
+.menuIcon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+/* Navbar Menu Styles */
+.navMenu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navItem {
+  position: relative;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background 0.3s;
+  
+}
+
+.navLink:hover,
+.active {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+/* Responsive Styles */
+@media (max-width: 954px) {
+  .menuIcon {
+    display: flex;
+  }
+
+  .navMenu {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: #333;
+    transition: left 0.4s;
+    padding: 20px;
+  }
+
+  .navMenu.active {
+    left: 0;
+  }
+
+  .navItem {
+    margin-bottom: 16px;
+  }
+}

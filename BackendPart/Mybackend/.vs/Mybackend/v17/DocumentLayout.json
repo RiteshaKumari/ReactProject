@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ReactJS\\MyReactProject\\ReactMainProject\\BackendPart\\Mybackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70DD61E9-992A-4B00-816C-2C632D4B7C54}|Mybackend\\Mybackend.csproj|d:\\reactjs\\myreactproject\\reactmainproject\\backendpart\\mybackend\\mybackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DD61E9-992A-4B00-816C-2C632D4B7C54}|Mybackend\\Mybackend.csproj|solutionrelative:mybackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DD61E9-992A-4B00-816C-2C632D4B7C54}|Mybackend\\Mybackend.csproj|d:\\reactjs\\myreactproject\\reactmainproject\\backendpart\\mybackend\\mybackend\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DD61E9-992A-4B00-816C-2C632D4B7C54}|Mybackend\\Mybackend.csproj|solutionrelative:mybackend\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DD61E9-992A-4B00-816C-2C632D4B7C54}|Mybackend\\Mybackend.csproj|d:\\reactjs\\myreactproject\\reactmainproject\\backendpart\\mybackend\\mybackend\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DD61E9-992A-4B00-816C-2C632D4B7C54}|Mybackend\\Mybackend.csproj|solutionrelative:mybackend\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DD61E9-992A-4B00-816C-2C632D4B7C54}|Mybackend\\Mybackend.csproj|d:\\reactjs\\myreactproject\\reactmainproject\\backendpart\\mybackend\\mybackend\\models\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DD61E9-992A-4B00-816C-2C632D4B7C54}|Mybackend\\Mybackend.csproj|solutionrelative:mybackend\\models\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ReactJS\\MyReactProject\\ReactMainProject\\BackendPart\\Mybackend\\Mybackend\\Program.cs",
+              "RelativeDocumentMoniker": "Mybackend\\Program.cs",
+              "ToolTip": "D:\\ReactJS\\MyReactProject\\ReactMainProject\\BackendPart\\Mybackend\\Mybackend\\Program.cs",
+              "RelativeToolTip": "Mybackend\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:42:59.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "D:\\ReactJS\\MyReactProject\\ReactMainProject\\BackendPart\\Mybackend\\Mybackend\\Models\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "Mybackend\\Models\\ChatMessage.cs",
+              "ToolTip": "D:\\ReactJS\\MyReactProject\\ReactMainProject\\BackendPart\\Mybackend\\Mybackend\\Models\\ChatMessage.cs",
+              "RelativeToolTip": "Mybackend\\Models\\ChatMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:28:16.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\ReactJS\\MyReactProject\\ReactMainProject\\BackendPart\\Mybackend\\Mybackend\\Models\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Mybackend\\Models\\ChatHub.cs",
+              "ToolTip": "D:\\ReactJS\\MyReactProject\\ReactMainProject\\BackendPart\\Mybackend\\Mybackend\\Models\\ChatHub.cs",
+              "RelativeToolTip": "Mybackend\\Models\\ChatHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:21:25.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\ReactJS\\MyReactProject\\ReactMainProject\\BackendPart\\Mybackend\\Mybackend\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Mybackend\\Controllers\\ChatController.cs",
+              "ToolTip": "D:\\ReactJS\\MyReactProject\\ReactMainProject\\BackendPart\\Mybackend\\Mybackend\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Mybackend\\Controllers\\ChatController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:52:59.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

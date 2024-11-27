@@ -1,0 +1,164 @@
+/* Main Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  }
+  
+  .error{
+    color: red;
+  }
+
+  .formContainer {
+    background-color: #fff;
+    padding: 25px 25px 0px 25px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Form Styles */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .label {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 7px 15px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #66a6ff;
+    box-shadow: 0px 4px 8px rgba(255, 154, 158, 0.2);
+  }
+  
+  .options {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .checkboxContainer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .checkboxContainer input {
+    margin-right: 10px;
+  }
+  
+  .termsLink {
+    color: #66a6ff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .termsLink:hover {
+    color: #333;
+  }
+  
+  /* Button Styling */
+  .button {
+    background-color: #66a6ff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #66a6ff;
+  }
+  
+  /* Login Text */
+  .loginText {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .loginLink {
+    color: #66a6ff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .loginLink:hover {
+    color: #333;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .formContainer {
+      padding: 30px;
+      width: 90%;
+      max-width: 400px;
+    }
+  
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .button {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .formContainer {
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 1.6rem;
+    }
+  
+    .input {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  
+    .button {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  }
+  

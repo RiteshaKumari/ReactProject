@@ -1,0 +1,183 @@
+/* Container Styling */
+.container {
+    padding: 40px 20px; /* Reduced padding on smaller screens */
+    text-align: center;
+    background-color: #f4f6f8;
+}
+
+/* Header Styling */
+.header {
+    font-size: 2.5em; /* Larger font size for the header */
+    margin-bottom: 40px; /* Space below the header */
+    color: #333; /* Darker text color */
+    font-weight: bold; /* Bold header */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+/* Course Grid Layout */
+.coursesGrid {
+    padding: 0px 10vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three cards per row by default */
+    gap: 30px; /* Gap between cards */
+}
+
+/* Course Card Styling */
+.courseCard {
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #fff;
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+}
+
+.courseCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Category Tag Styling */
+.category {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 0.9em;
+}
+
+/* Course Image Styling */
+.courseImage {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+/* Title Styling */
+.title {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #2c3e50;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    line-height: 1.2em;
+    max-height: 2.4em;
+    text-align: left;
+}
+
+/* Details Container Styling */
+.detailsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Detail Styling */
+.detail {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Detail Icon Styling */
+.detailIcon {
+    margin-right: 8px;
+    color: #666;
+}
+
+/* Price Styling */
+.price {
+    font-size: 1.5em;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 1382px) {
+    .coursesGrid {
+        grid-template-columns: repeat(2, 1fr); /* Two cards per row for medium screens */
+    }
+}
+
+@media (max-width: 1022px) {
+    .coursesGrid {
+        grid-template-columns: 1fr; /* One card per row for small screens */
+    }
+}
+
+/* Search Input Styling */
+.searchInput {
+    width: 100%;
+    max-width: 400px; /* Limit max width for larger screens */
+    padding: 10px;
+    margin: 20px auto; /* Center the input */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Pagination Styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px; /* Reduced margin */
+}
+
+.pagination span{
+    padding: 10px;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination .page-number {
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+
+.pagination .page-number:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination .active {
+    background-color: #0056b3;
+    color: white;
+    padding: 9px 15px;
+    border-radius: 36px;
+    margin: 0px 2px;
+}
+
+
+a{
+    text-decoration: none !important;
+  }

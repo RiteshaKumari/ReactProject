@@ -1,0 +1,176 @@
+/* Container styling */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 0px 45px 0px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15); */
+}
+
+.profile {
+  flex: 1;
+  max-width: 320px;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  border-radius: 12px;
+  transition: transform 0.3s;
+  height: 357px;
+}
+
+.reviewInfo {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.reviewItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95em;
+  color: #666;
+}
+
+.icon {
+  color: #f4c542;
+  font-size: 1.2em;
+}
+
+/* Details styling */
+.details {
+  flex: 2;
+  max-width: 640px;
+}
+
+.position {
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.name {
+  font-size: 2em;
+  font-weight: 700;
+  color: #333;
+}
+
+.description {
+  margin: 20px 0 30px;
+  color: #777;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+/* Contact info styling */
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.contactIcon {
+  font-size: 1.2em;
+  color: #777;
+  margin-right: 12px;
+}
+
+.contactLabel {
+  font-size: 0.85em;
+  color: #7b7777;
+}
+
+.contactText {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+/* Social icons styling */
+.socialIcons {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5em;
+  color: #555;
+  margin-top: 15px;
+}
+
+.socialIcons > * {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.socialIcons > *:hover {
+  color: #333;
+}
+
+/* About section styling */
+.about {
+  width: 100%;
+  margin-top: 30px;
+  color: #333;
+}
+
+.about h3 {
+  font-size: 1.6em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .profile,
+  .details,
+  .about {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .contactInfo {
+    align-items: center;
+  }
+
+  .socialIcons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 730px) {
+  .container {
+    padding: 20px;
+  }
+
+  .name {
+    font-size: 1.6em;
+  }
+
+  .description, .contactText, .about p {
+    font-size: 0.9em;
+  }
+
+  .socialIcons {
+    font-size: 1.3em;
+  }
+}

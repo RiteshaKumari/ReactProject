@@ -1,0 +1,10 @@
+
+.blackcaption,.blackcaption h3, .blackcaption p {
+    color: black !important; /* Set the caption text color to black */
+    display: none;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next{
+     color:black !important;
+  }
+

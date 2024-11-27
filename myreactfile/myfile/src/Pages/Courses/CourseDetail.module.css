@@ -1,0 +1,226 @@
+/* Main container for responsive layout */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Main content styles */
+.mainContent {
+  flex: 1 1 60%;
+  max-width: 100%;
+}
+
+.mainImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+
+
+.courseTitle {
+  font-size: 2.2rem;
+  margin: 15px 0;
+  color: #333;
+  line-height: 1.3;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.courseTitle:hover {
+  color: #6b5b95;
+}
+
+.courseDescription {
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.sectionHeading {
+  font-size: 1.5rem;
+  margin: 20px 0 10px;
+  color: #444;
+  border-left: 4px solid #6b5b95;
+  padding-left: 8px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.courseFeatures, .courseBenefits {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.courseFeatures li::before, .courseBenefits li::before {
+  content: '✔️';
+  margin-right: 8px;
+  color: #6b5b95;
+}
+
+.courseFeatures li, .courseBenefits li {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.4;
+  transition: color 0.3s ease;
+}
+
+.courseFeatures li:hover, .courseBenefits li:hover {
+  color: #6b5b95;
+}
+
+/* Sidebar styles */
+.sidebar {
+  flex: 0 1 30%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: fit-content;
+}
+
+
+
+.courseInfo, .contact {
+  padding: 15px 0;
+
+}
+
+.courseInfo:last-child, .contact:last-child {
+  border-bottom: none;
+}
+
+.courseInfo h3, .contact h3 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #333;
+  border-bottom: 2px solid #6b5b95;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.courseInfo p, .contact p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #555;
+  transition: color 0.3s ease;
+  padding: 10px 0px;
+  border-bottom: 1px solid #d9d7d7;
+}
+
+.courseInfo p:hover, .contact p:hover {
+  color: #333;
+}
+
+/* Enroll Now Button */
+.enrollButton {
+  background-color: #6b5b95;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.enrollButton:hover {
+  background-color: #55405d;
+  transform: scale(1.05);
+}
+
+/* Contact hover effects */
+.contact p:hover {
+  color: #6b5b95;
+  cursor: pointer;
+}
+
+.contact p a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact p a:hover {
+  color: #333;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .mainContent {
+    max-width: 100%;
+  }
+
+  .sidebar {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .courseTitle {
+    font-size: 1.8rem;
+  }
+
+  .sectionHeading {
+    font-size: 1.3rem;
+  }
+
+  .courseDescription {
+    font-size: 1rem;
+  }
+
+  .courseFeatures li, .courseBenefits li {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+
+  .courseTitle {
+    font-size: 1.5rem;
+  }
+
+  .sidebar {
+    padding: 15px;
+  }
+
+  .courseInfo p, .contact p {
+    font-size: 0.9rem;
+  }
+}
+.courseInfo p, .contact p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #555;
+  display: flex; /* Use flex for alignment */
+  align-items: center; /* Center align icons with text */
+  justify-content: space-between;
+}
+
+.courseInfo p svg, .contact p svg {
+  margin-right: 8px; /* Space between icon and text */
+  color: #6b5b95; /* Change color to match your theme */
+}

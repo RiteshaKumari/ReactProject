@@ -1,0 +1,52 @@
+.stripContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 10%;
+    background-color: #2c3e50; /* Dark background */
+    color: white;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+}
+
+.featureCard {
+    background-color: #34495e; /* Slightly lighter background for cards */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    flex: 1 1 calc(30% - 30px); /* Responsive width */
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.featureCard:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    color: #f39c12; /* Icon color */
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 1.5rem; /* Adjust heading size */
+}
+
+p {
+    font-size: 1rem; /* Adjust paragraph size */
+    line-height: 1.5;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .featureCard {
+        flex: 1 1 calc(45% - 30px); /* 2 cards per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .featureCard {
+        flex: 1 1 100%; /* 1 card per row */
+    }
+}
